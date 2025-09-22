@@ -1,0 +1,21 @@
+# Rust/Cargo
+/target/
+/**/target/
+**/*.rs.bk
+
+# Scrypto artifacts
+dump.wat
+wasm32.json
+build_log.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
+results.json
+
+# Editor/project
+.vscode/
+.idea/
+*.swp
+.DS_Store
