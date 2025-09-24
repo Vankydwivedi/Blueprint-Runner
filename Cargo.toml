@@ -1,0 +1,13 @@
+[package]
+name = "demo_blueprint"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+scrypto = { version = "1.3.0", default-features = false, features = ["alloc"] }
+
+
+[lib]
+name = "demo_blueprint"
+crate-type = ["cdylib", "lib"]
